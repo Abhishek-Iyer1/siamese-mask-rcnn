@@ -43,6 +43,13 @@ To evaluate and visualize a models results run the [evaluation.ipynb](evaluation
 
 We use the coco 2017 val set for testing and the last 3000 images from the training set for validation.
 
+If run correctly, you should see the following results.
+
+<p align="center">
+ <img src="figures/results_segmentation.jpg" width=50%>
+</p>
+
+
 ## Model description
 
 Siamese Mask R-CNN is designed as a minimal variation of Mask R-CNN which can perform the visual search task described above. For more details please read the [paper](https://arxiv.org/abs/1811.11507).
