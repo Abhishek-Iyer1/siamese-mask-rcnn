@@ -46,7 +46,7 @@ We use the coco 2017 val set for testing and the last 3000 images from the train
 If run correctly, you should see the following results.
 
 <p align="center">
- <img src="figures/results_segmentation.jpg" width=50%>
+ <img src="figures/results_segmentation.JPG" width=50%>
 </p>
 
 
