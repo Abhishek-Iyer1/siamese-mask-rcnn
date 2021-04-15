@@ -23,12 +23,14 @@ One-shot instance segmentation can be summed up as: Given a query image and a re
 This type of visual search task creates new challenges for computer vision algorithms, as methods from metric and few-shot learning have to be incorporated into the notoriously hard tasks ofobject identification and segmentation. 
 Siamese Mask R-CNN extends Mask R-CNN - a state-of-the-art object detection and segmentation system - with a Siamese backbone and a matching procedure to perform this type of visual search.
 
-## Installation
 
-1. Clone this repository
-2. Prepare COCO dataset as described below
-3. Run the [install_requirements.ipynb](install_requirements.ipynb) notebook to install all relevant dependencies.
 
+##Download Pretrained Weights
+Get the pretrained weights from the [releases menu](https://github.com/bethgelab/siamese-mask-rcnn/releases) and save them to `/checkpoints`.
+Your `/checkpoints` should have the following files:
+- imagenet_687.h5
+- large_siamese_mrcnn_coco_full_0320.h5
+- small_siamese_mrcnn_0160.h5
 
 ## Training
 
