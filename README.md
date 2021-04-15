@@ -56,6 +56,20 @@ If run correctly, you should see the following results.
  <img src="figures/results_segmentation.JPG" width=50%>
 </p>
 
+## Visualization
+
+To visualize layers, kernels and feature maps of the ResNet50 backbone, run the [visualize.ipynb](visualize.ipynb) notebook.
+
+If run correctly, you should see the following results.
+
+<p align="center">
+ <img src="figures/filters.JPG" width=50%>
+</p>
+
+The following is the output for the feature maps.
+<p align="center">
+ <img src="figures/feature_maps.JPG" width=50%>
+</p>
 
 ## Model description
 
