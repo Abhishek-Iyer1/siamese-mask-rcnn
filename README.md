@@ -36,7 +36,7 @@ Your `/checkpoints` should have the following files:
 
 ## Training
 
-To train siamese mask r-cnn on MS COCO simply follow the instructions in the [training.ipynb](training.ipynb) notebook. 
+To train siamese mask r-cnn on MS COCO simply follow the instructions in the [train.ipynb](train.ipynb) notebook. 
 To train without issues, make sure the argument **auto_download** is set to **True**. This will download the train2017 and val2017 folders for you.
 
 Our models are trained on the coco 2017 training set, of which we remove the last 3000 images for validation.
@@ -50,7 +50,7 @@ If run correctly, you should see the following loss plot.
 
 ## Evaluation
 
-To evaluate and visualize a models results run the [evaluation.ipynb](evaluation.ipynb) notebook.
+To evaluate and visualize a models results run the [evaluate.ipynb](evaluate.ipynb) notebook.
 
 We use the coco 2017 val set for testing and the last 3000 images from the training set for validation.
 
